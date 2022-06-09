@@ -1,0 +1,1 @@
+{"buildTargets":["clean","clean-rmd","commands","docker-serve","index.md","install-rmd-deps","lesson-check","lesson-check-all","lesson-files","lesson-fixme","lesson-md","python","repo-check","serve","site","unittest","workshop-check"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}

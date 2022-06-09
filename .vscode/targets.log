@@ -1,0 +1,449 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+make: *** No rule to make target `all'.  Stop.
+
+
+# Make data base, printed on Thu Jun  9 18:14:04 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# makefile (from `Makefile', line 15)
+PYTHON3_EXE := /usr/local/bin/python3
+# environment
+LC_CTYPE = UTF-8
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+MODULEPATH = /usr/local/Cellar/modules/5.1.0/modulefiles:/Users/fouesneau/bin/modules
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/fouesneau/Work/projects/carpentries-ml-intro-draft
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/jb/twt_8kfx4mj86m9v8jgccs_r5gbl99/T/vscode-ipc-7615a38d-35e3-45aa-8718-3c544fc78a53.sock
+# environment
+VSCODE_CWD = /Users/fouesneau/Work/projects/carpentries-ml-intro-draft
+# makefile (from `Makefile', line 113)
+MARKDOWN_SRC = index.md CODE_OF_CONDUCT.md setup.md $(sort $(wildcard _episodes/*.md)) reference.md $(sort $(wildcard _extras/*.md)) LICENSE.md
+# environment
+PATH = /usr/local/Cellar/modules/5.1.0/bin:/Users/fouesneau/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/opt/X11/bin:/Users/fouesneau/.local/bin:
+# environment
+LSCOLORS = ExFxBxDxCxegedabagacad
+# environment
+MODULES_CMD = /usr/local/Cellar/modules/5.1.0/libexec/modulecmd.tcl
+# environment
+FPATH = /usr/local/Cellar/modules/5.1.0/init/zsh-functions:/usr/local/share/zsh/site-functions:/usr/share/zsh/site-functions:/usr/share/zsh/5.7.1/functions
+# environment
+LaunchInstanceID = 21DD609E-5C7E-4186-A748-CFB98BD4E9F5
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# makefile (from `Makefile', line 123)
+HTML_DST = ${DST}/index.html ${DST}/conduct/index.html ${DST}/setup/index.html $(patsubst _episodes/%.md,${DST}/%/index.html,$(sort $(wildcard _episodes/*.md))) ${DST}/reference.html $(patsubst _extras/%.md,${DST}/%/index.html,$(sort $(wildcard _extras/*.md))) ${DST}/license/index.html
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.hNJJQErXOV/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = /private/tmp/com.apple.launchd.v3pqz7GgkE/org.xquartz:0
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /Users/fouesneau/Work/projects/carpentries-ml-intro-draft
+# environment
+EDITORCMD = vim
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# makefile (from `Makefile', line 18)
+PYTHON := /usr/local/bin/python3
+# environment
+MANPATH = :
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/fouesneau
+# default
+MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/fouesneau/Library/Application Support/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+LOGNAME = fouesneau
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+KEYTIMEOUT = 1
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 3
+# makefile (from `Makefile', line 110)
+RMD_DST = $(patsubst _episodes_rmd/%.Rmd,_episodes/%.md,$(RMD_SRC))
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = fouesneau
+# makefile (from `Makefile', line 39)
+.DEFAULT_GOAL := commands
+# environment
+TERM_SESSION_ID = BF4B76AA-09E7-44DE-81AB-FE8F066E8BFF
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from `Makefile', line 11)
+DOCKER := /usr/local/bin/docker
+# default
+MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
+# environment
+TERM_PROGRAM = Apple_Terminal
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/jb/twt_8kfx4mj86m9v8jgccs_r5gbl99/T/
+# environment
+GHI_PAGER = less
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/fouesneau/Library/Application Support/Code/1.67.2-main.sock
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+PROMPT = ${vcs_info_msg_0_}%B%F{green}%n%f%b%B%F{green}@%f%b%B%F{green}%m%f%b:%B%F{blue}%1~%f%b$ 
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+TERM_PROGRAM_VERSION = 433
+# environment
+LOADEDMODULES = 
+# environment
+XPC_SERVICE_NAME = 0
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+MODULESHOME = /usr/local/Cellar/modules/5.1.0
+# automatic
++F = $(notdir $+)
+# environment
+SVN_EDITOR = vim
+# environment
+__CF_USER_TEXT_ENCODING = 0xAF5CD29:0x0:0x0
+# makefile (from `Makefile', line 5)
+MAKEFILES = Makefile $(wildcard *.mk)
+# automatic
+<F = $(notdir $<)
+# environment
+EDITOR = vim
+# environment
+PAGER = less
+# environment
+LC_ALL = C
+# environment
+SECURITYSESSIONID = 186a6
+# makefile (from `Makefile', line 6)
+JEKYLL = bundle config set --local path .vendor/bundle && bundle install && bundle update && bundle exec jekyll
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# makefile (from `Makefile', line 8)
+DST = _site
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 0
+# environment
+CLICOLOR = true
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# makefile (from `Makefile', line 109)
+RMD_SRC = $(wildcard _episodes_rmd/*.Rmd)
+# environment
+VSCODE_PID = 3876
+# makefile (from `Makefile', line 7)
+PARSER = bin/markdown_ast.rb
+# variable set hash-table stats:
+# Load=95/1024=9%, Rehash=0, Collisions=6/132=5%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777221, inode 201800316): 33 files, no impossibilities.
+# _episodes_rmd (device 16777221, inode 201800398): 4 files, no impossibilities.
+
+# 37 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+_episodes/%.md: _episodes_rmd/%.Rmd install-rmd-deps
+#  commands to execute (from `Makefile', line 140):
+	@mkdir -p _episodes
+	@$(SHELL) bin/knit_lessons.sh $< $@
+	
+
+# 1 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.PHONY: site docker-serve repo-check clean clean-rmd workshop-check lesson-check lesson-md lesson-files lesson-fixme install-rmd-deps commands python
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+lesson-files:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 157):
+	@echo 'RMD_SRC:' ${RMD_SRC}
+	@echo 'RMD_DST:' ${RMD_DST}
+	@echo 'MARKDOWN_SRC:' ${MARKDOWN_SRC}
+	@echo 'HTML_DST:' ${HTML_DST}
+	
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-09 17:05:09
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+lesson-check: python lesson-fixme
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 145):
+	@${PYTHON} bin/lesson_check.py -s . -p ${PARSER} -r _includes/links.md
+	
+
+workshop-check: python
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 99):
+	@${PYTHON} bin/workshop_check.py .
+	
+
+lesson-check-all: python
+#  Implicit rule search has not been done.
+ 
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 149):
+	@${PYTHON} bin/lesson_check.py -s . -p ${PARSER} -r _includes/links.md -l -w --permissive
+	
+
+clean-rmd:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 87):
+	@rm -rf ${RMD_DST}
+	@rm -rf fig/rmd-*
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+lesson-fixme:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 164):
+	@grep --fixed-strings --word-regexp --line-number --no-messages FIXME ${MARKDOWN_SRC} || true
+	
+
+install-rmd-deps:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 134):
+	@${SHELL} bin/install_r_deps.sh
+	
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 75):
+	@rm -rf ${DST}
+	@rm -rf .sass-cache
+	@rm -rf bin/__pycache__
+	@rm -rf .vendor
+	@rm -rf .bundle
+	@rm -f Gemfile.lock
+	@find . -name .DS_Store -exec rm {} \;
+	@find . -name '*~' -exec rm {} \;
+	@find . -name '*.pyc' -exec rm {} \;
+	
+
+unittest: python
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 153):
+	@${PYTHON} bin/test_lesson_check.py
+	
+
+commands:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 174):
+	@sed -n -e '/^##/s|^##[[:space:]]*||p' $(MAKEFILE_LIST)
+	
+
+docker-serve:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 59):
+	@$(DOCKER) pull carpentries/lesson-docker:latest
+	@$(DOCKER) run --rm -it \
+	-v $${PWD}:/home/rstudio \
+	-p 4000:4000 \
+	-p 8787:8787 \
+	-e USERID=$$(id -u) \
+	-e GROUPID=$$(id -g) \
+	carpentries/lesson-docker:latest
+	
+
+lesson-md:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+site: lesson-md index.md
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 52):
+	${JEKYLL} build
+	
+
+index.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 187):
+	@:
+	
+
+serve: lesson-md index.md
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 48):
+	${JEKYLL} serve
+	
+
+repo-check: python
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 71):
+	@${PYTHON} bin/repo_check.py -s .
+	
+
+python:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 180):
+	@:
+	
+
+# files hash-table stats:
+# Load=22/1024=2%, Rehash=0, Collisions=0/60=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Thu Jun  9 18:14:04 2022
+
+ 
